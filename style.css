@@ -1,0 +1,417 @@
+body
+{
+    background: url(./images/background.jpg);
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+/* HEADER SECTION CSS STARTS HERE  */
+
+#HeaderSection
+{
+    color: white;
+    width: 100%;
+    margin-top: -7px;
+}
+
+#HeaderSection h1
+{
+    font-size: 17px;
+    margin: 17px 0px 0px 15px;
+    display: inline-block;
+}
+
+#HeaderSection h1 span
+{
+    font-weight: 100;
+}
+
+#HeaderSection ul 
+{
+    display: inline-block;
+    width: 66%;
+    position: absolute;
+    right: -550px;
+}
+
+#HeaderSection ul li
+{
+    display: inline-block;
+    padding: 3px 15px;
+    font-size: 17px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.SignUp
+{
+    border: 2px solid rgb(212 208 209);
+    border-radius: 6px;
+}
+
+
+/* HEADER SECTION CSS ENDS HERE  */
+
+
+/* BODY SECTION CSS STARTS HERE  */
+
+#BodySection
+{
+    text-align: center;
+    color: white;
+    margin-top: 135px;
+}
+
+#BodySection h1
+{
+    font-size: 47px;
+}
+
+#BodySection ul li
+{
+    display: inline-block;
+    border: 2px solid #afabac;
+    border-radius: 6px;
+    padding: 10px 55px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.SignBtn
+{
+    color: #868178;
+    border: 2px solid white !important;
+    background-color: white;
+    padding: 10px 75px !important;
+}
+
+.learnmore:hover
+{
+    background-color: rgba(224, 224, 224, 0.502);
+    color: white;
+    opacity: 1.5;
+}
+/* BODY SECTION CSS ENDS HERE */
+
+
+/* DescriptionSection CSS starts here  */
+
+#DescripSection
+{
+    width: 70%;
+    text-align: center;
+    background-color: white;
+    margin: 0px auto;
+    margin-top: 147px;
+    border-radius: 6px;
+}
+
+#DescripSection img
+{
+    display: block;
+    width: 100%;
+    border-radius: 0px 0px 6px 6px;
+}
+
+#DescripSection h1
+{
+    color: #6f6f6f;
+    padding: 70px 70px 0px 70px;
+    font-weight: 2px;
+}
+
+#DescripSection p
+{
+    border-top: 2px solid #e5e5e5;
+    display: inline-block;
+    padding: 30px 0px;
+    margin-top: 3px
+}
+/* Description Section CSS ends here  */
+
+#IconSection
+{
+    background-color: white;
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 26px;
+    border-radius: 6px;
+    text-align: center;
+    padding: 45px 0px 45px 0px;
+}
+
+#IconDiv1 
+{
+    padding: 0px 45px 44px 0px;
+    display: inline-block;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+#IconDiv1 .fa-bolt
+{
+    background-color: #e89980;
+    padding: 22px 33px;
+    border-radius: 100%;
+    font-size: 47px;
+    font-weight: 900;
+    color: white;
+}
+
+#IconDiv2
+{
+    padding: 0px 0px 44px 45px;
+    display: inline-block;
+    border-left: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    margin-left: -4px;
+}
+
+#IconDiv2 .fa-area-chart
+{
+    background-color: #7fcdb8;
+    padding: 29px 27px;
+    border-radius: 100%;
+    font-size: 37px;
+    font-weight: 900;
+    color: white;
+}
+
+#IconDiv3 
+{
+    padding: 42px 43px 0px 0px;
+    display: inline-block;
+}
+
+#IconDiv3 .fa-cloud
+{
+    background-color: #90b0ba;
+    padding: 22px 21px;
+    border-radius: 100%;
+    font-size: 47px;
+    font-weight: 900;
+    color: white;
+}
+
+#IconDiv4
+{
+    padding: 45px 0px 0px 45px;
+    display: inline-block;
+    border-left: 2px solid #e5e5e5; 
+    margin-left: -2px;
+}
+
+#IconDiv4 .fa-lock
+{
+    padding: 21px 28px;
+    font-size: 47px;
+    background-color: #e5cb95;
+    border-radius: 100%;
+    font-weight: 900;
+    color: white;
+}
+
+
+/* ImageSection CSS starts here */
+
+#ImgSection
+{
+    width: 70%;
+    margin: 0px auto;   
+    margin-top: 40px; 
+}
+
+#ImgDiv1 
+{
+    background-color: white;
+    display: inline-block;
+    width: 48%;
+    margin-right: 37px;
+    text-align: center;
+    border-radius: 0px 0px 6px 6px;
+}
+
+#ImgDiv1 img
+{
+    width: 100%;
+    border-radius: 6px 6px 0px 0px;
+}
+
+/*  Instead of applying css for both div we can use #ImgSection div it'll apply on both the divs*/
+
+#ImgDiv2
+{
+    background-color: white;
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+    border-radius: 0px 0px 6px 6px;
+}
+
+#ImgDiv2 img
+{
+    width: 100%;
+    border-radius: 6px 6px 0px 0px;
+}
+
+#ImgSection button
+{
+    padding: 16px 36px;
+    background-color: white;
+    border: 2px solid #efefef;
+    margin: 21px 0px 40px 0px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #efefef
+}
+
+#ImgSection
+{
+    width: 70%;
+    margin: 0px auto;   
+    margin-top: 40px; 
+}
+#ImgDiv1 
+{
+    background-color: white;
+    display: inline-block;
+    width: 48%;
+    margin-right: 38px;
+    text-align: center;
+    border-radius: 0px 0px 6px 6px;
+}
+
+#ImgDiv1 img
+{
+    width: 100%;
+    border-radius: 6px 6px 0px 0px;
+}
+
+/*  Instead of applying css for both div we can use #ImgSection div it'll apply on both the divs*/
+
+#ImgDiv2
+{
+    background-color: white;
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+    border-radius: 0px 0px 6px 6px;
+}
+
+#ImgDiv2 img
+{
+    width: 100%;
+    border-radius: 6px 6px 0px 0px;
+}
+
+#ImgSection button
+{
+    padding: 16px 36px;
+    background-color: white;
+    border: 2px solid #e5e5e5;
+    margin: 21px 0px 40px 0px;
+    border-radius: 6px;
+    color:#7b7777;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+#ImgSection h1
+{
+    margin: 50px 0px 20px 0px;
+    font-weight: 100;
+}
+/* ImageSection CSS ends here */
+
+
+/* Footer Section starts here */
+
+#FooterSection
+{
+    text-align: center;
+    margin-top: 90px;
+}
+
+#FooterSection #DivFoot1
+{
+    background-color: #e89980;
+    color: white;
+    padding: 30px 0px 50px 0px;
+}
+
+#FooterSection #DivFoot1 h1,p
+{
+    font-weight: 100;
+}
+
+#FooterSection #DivFoot1 p
+{
+    margin: 10px 0px 37px 0px;
+}
+
+#FooterSection #DivFoot1 input
+{
+    margin-right: 15px;
+    height: 35px;
+    width: 230px;
+    padding: 5px 0px 5px 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: #eba893;
+}
+
+#FooterSection #DivFoot1 input::placeholder
+{
+    color: white;
+    font-size: 100;
+}
+
+#FooterSection #DivFoot1 button
+{
+    height: 41px;
+    width: 103px;
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+    color: #eba893;
+    cursor: pointer;
+}
+
+#FooterSection #DivFoot2
+{
+    padding: 40px 0px;
+    background-color: #f0f0f0;
+    color: #b3b3b3;
+
+}
+
+#FooterSection #DivFoot2 .fa
+{
+    margin-top: 38px;
+    padding: 0px 12px;
+    font-size: 28px;
+    color: #c6c6c6;
+    cursor: pointer;
+}
+
+#FooterSection #DivFoot2 ul li 
+{
+    display: inline-block;
+    border-right:2px solid #e5e5e5 ;
+    padding: 0px 5px;
+    font-size: 12px;
+    color: #c6c6c6;
+}
+
+#FooterSection #DivFoot2 .lastElement
+{
+    border: none ;
+    border-color: white;
+}
+
+
+
